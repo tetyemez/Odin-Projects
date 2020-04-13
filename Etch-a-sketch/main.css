@@ -1,0 +1,50 @@
+html {
+  background-color: #ff470f;
+  background-image: linear-gradient(to bottom right, #ff470f, #ac0c7e);
+  font-family: "Roboto";
+  font-weight: bold;
+  padding-top: 40px;
+}
+
+.container {
+  display: grid;
+  width: 480px;
+  height: 480px;
+  margin: 0 auto;
+  margin: 1em auto 1em auto;
+  overflow: hidden;
+}
+
+.container > div {
+  background-color: #fce8e8;
+  padding: 10px;
+}
+
+.resetBtn {
+  margin-left: 47%;
+  background-color: rgba(250, 6, 46, 0.815);
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.resetBtn:hover {
+  background-color: rgba(201, 186, 186, 0.822);
+}
+
+/* .wrapper {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    grid-gap: 0.5em;
+  }
+  .wrapper > div {
+    background: #eee;
+    padding: 0.2em;
+  }
+  .wrapper > div:nth-child(odd) {
+    background: #ddd;
+  } */

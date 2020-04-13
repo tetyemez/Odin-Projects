@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Library</title>
+  </head>
+  <body>
+    <div class="container-fluid">      
+      <div class="row">
+        <div class="col-md-8 offset-2"><h3>My Library</h3></div>
+        <div class="col-md-8 offset-2" id="table-div"></div>        
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <button class="btn btn-primary" id="new-book-btn">NEW BOOK</button>
+        </div>
+        <div class="col-md-5 col-md-offset-3" id="add-new-book-form">
+          <h3>Book Information</h3>
+          <div class="form-group">
+            <label for="book-title">Title:</label>
+            <input type="text" id="book-title" class="form-control" placeholder="The Little Prince" />
+          </div>
+          <div class="form-group">
+            <label for="book-author">Author:</label>
+            <input type="text" id="book-author" class="form-control" placeholder="Antoine de Saint-Exupery" />
+          </div>
+          <div class="form-group">
+            <label for="book-pages">Page:</label>
+            <input type="number" id="book-pages" class="form-control" placeholder="128"/>
+          </div>
+          <div class="form-check">            
+            <input type="checkbox" id="book-read" class="form-check-input" />
+            <label for="book-read">Is Read?</label>
+          </div>
+          <button class="btn btn-success" id="add-book-btn">
+            ADD BOOK
+          </button>
+        </div>
+    </div>
+    <script src="book.js"></script>
+  </body>
+</html>

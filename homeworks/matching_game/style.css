@@ -1,0 +1,66 @@
+#entrance {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  height: 220px;
+  border: 1px solid black;
+}
+
+#view-1 > h4 {
+  position: relative;
+  right: 55px;
+  top: 60px;
+  padding: 10%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#view-1 {
+  position: relative;
+  top: 20%;
+  left: 10%;
+  font-weight: bold;
+}
+
+#view-1 > input {
+  width: 100px;
+  height: 20px;
+  border: 1px solid black;
+  margin-left: 3%;
+}
+
+#open-grid {
+  width: 130px;
+  height: 30px;
+  text-transform: uppercase;
+  background-color: #c3c3c3;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  border: 1px solid black;
+  opacity: 0.5;
+}
+
+#view-2 {
+  display: grid;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+}
+
+.square {
+  border: 1px solid black;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+#flip {
+  transform: rotateY(180deg);
+}
+
+/* #view-2 {
+  display: none;
+} */

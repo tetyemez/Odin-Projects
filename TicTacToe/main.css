@@ -1,0 +1,23 @@
+.game-board {
+  display: grid;
+  grid-template-columns: 120px 120px 120px;
+  grid-template-rows: 120px 120px 120px 20px;
+  justify-content: center;
+}
+
+.box {
+  background-color: #d9d9d9;
+  border: 2px solid black;
+  font-size: 3em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+
+#display-controller {
+  display: grid;
+  grid-template-columns: 200px 60px;
+  grid-template-rows: 100px 100px;
+  margin-top: 50px;
+  justify-content: center;
+}

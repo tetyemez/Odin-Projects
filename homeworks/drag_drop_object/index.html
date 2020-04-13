@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Soru - 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="container" data-drop-target="true">
+      <div id="dashline" data-drop-target="true"></div>
+      <div id="footer" data-drop-target="true">
+        <div id="speed-1" draggable="true"><span>1</span></div>
+        <div id="speed-2" draggable="true"><span>2</span></div>
+        <div id="speed-3" draggable="true"><span>3</span></div>
+
+        <h5>HIZ</h5>
+        <div id="slider">
+          <div id="pot"></div>
+          <span id="low">1</span>
+          <span id="medium">2</span>
+          <span id="high">3</span>
+        </div>
+      </div>
+    </div>
+    <div id="reset">
+      <button id="reset-btn">RESET</button>
+    </div>
+    <script src="jquery.min.js"></script>
+    <script src="jquery.ui.js"></script>
+    <script src="drag_drop.js"></script>
+  </body>
+</html>
